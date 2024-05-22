@@ -13,7 +13,7 @@ const StockInfo = ({ symbol }) => {
   const fetchStockInfo = async (symbol) => {
     try {
       const response = await fetch(
-        `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${symbol}&apikey=CYZ46BTHO6X9FX6O`
+        `https://www.alphavantage.co/query?function=OVERVIEW&symbol=${symbol}&apikey="Your_Key"`
       );
       if (!response.ok) {
         throw new Error("Failed");
