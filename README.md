@@ -8,4 +8,8 @@ Contain Login , Dashboard contain Stock information
 - `npm run dev`
 
 ## Deploy Soon
+ - ...
+
+## Till Checkout other projects on X 
+ - https://direct.me/anshulmishra
  
